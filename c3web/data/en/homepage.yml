@@ -1,0 +1,137 @@
+######################### Banner ###########################
+banner:
+  enable : true
+  title :  "Centra Australia"
+  subtitle : "Leading advice. Real outcomes."
+  social : true
+  # social icons comes from `config.toml` file.
+
+
+####################### About ##############################
+about:
+  enable : true
+  title : ""
+  image : "images/logos/logo3.png"
+  content : "Centra Australia provides specialist technical advisory services to a broad range of government and private organisations with a particular focus on improving operational efficiencies.
+    <p />We work with boards, directors and senior managers to help “achieve more from less” in delivering infrastructure outcomes.
+    <p />Centra Australia comprehensively understands the technical environment and the management principles as applied to infrastructure.
+    <p />We
+offer industry leading knowledge based on practical experience. Our Directors have worked within government and understand critical government drivers.
+    <p />We provide independent technical advice with strategies and ideas for improvement and innovation.
+    <p />Our clients achieve real outcomes and high value improvements in infrastructure management and delivery."
+
+####################### Education ###########################
+education:
+  enable : true
+  title : ""
+  education_item:
+    # services item loop
+     - name : "Strategic planning"
+#       duration : ""
+#       academy : "line"
+
+    # services item loop
+     - name : "Business case development"
+#       duration : ""
+#       academy : ""
+
+    # services item loop
+     - name : "Operational delivery assessment"
+#       duration : ""
+#       academy : ""
+
+    # services item loop
+     - name : "Pavement design & rehabilitation"
+#       duration : ""
+#       academy : ""
+
+    # services item loop
+     - name : "Pavement deterioration assessment"
+#       duration : ""
+#       academy : ""
+
+    # services item loop
+     - name : "Project strategy & review"
+#       duration : ""
+#       academy : ""
+
+    # services item loop
+     - name : "Asset management"
+#       duration : ""
+#       academy : ""
+
+    # services item loop
+     - name : "Expert witness"
+#       duration : ""
+#       academy : ""
+
+####################### Expertise ###########################
+expertise:
+  enable : false
+  title : "Expertise"
+  expertise_item:
+    # expertise item loop
+    - name : "Data Analysis and Visualization"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+    # expertise item loop
+    - name : "Statical Meathod Learning"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+
+####################### Publication ###########################
+publication:
+  enable : true
+  title : "Us"
+  # publication item comes from `content/**/publications/` folder.
+
+
+########################### Talk ##############################
+talk:
+  enable : false
+  title : "Highlights"
+  # talk item comes from `content/**/talks/` folder.
+
+
+########################## Projects ###########################
+project:
+  enable : true
+  title : "Services"
+  # projects item comes from `content/**/projects/` folder.
+
+
+########################### Blog ##############################
+blog:
+  enable : false
+  title : "Case Studies"
+  # blog item comes from `content/**/blogs/` folder.
+
+
+########################## Contact ############################
+# contact form
+contact_form:
+  enable : true
+  title : "Contact"
+  contact_form_action : "https://formspree.io/f/mzboklwb" #contact form works with https://formspree.io
+  name_label : "Your Name"
+  email_label : "Your Email"
+  textarea_label : "Your Message"
+  button_label : "Send Now"
+
+# contact info
+contact_info:
+  enable : true
+  title : "Get In Touch"
+  content : "Centra Australia Pty Ltd | ABN 79 050 165 823"
+  contact_item:
+    # contact item loop
+    - icon : "ti-email" # themify icon : https://themify.me/themify-icons
+      id : "info@centra-australia.com.au"
+
+    # contact item loop
+    - icon : "ti-location-pin" # themify icon : https://themify.me/themify-icons
+      id : "Wagga Wagga NSW - Australia"
+
+    # contact item loop
+    - icon : "ti-location-pin" # themify icon : https://themify.me/themify-icons
+      id : "Newcastle NSW - Australia"

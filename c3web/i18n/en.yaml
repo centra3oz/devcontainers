@@ -1,0 +1,14 @@
+- id: read_more
+  translation: Read More
+
+- id: all_publications
+  translation: All Publications
+
+- id: all_talks
+  translation: All Highlights
+
+- id: all_projects
+  translation: All Services
+
+- id: all_blog
+  translation: All Case Studies

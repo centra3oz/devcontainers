@@ -1,3 +1,148 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+######################## default configuration ####################
+baseURL = "https://www.centra-australia.com"
+title = "Centra Australia"
+theme = "gofolium"
+# post pagination
+paginate = "4"
+# post excerpt
+summaryLength = "3"
+# disable language
+disableLanguages = ["fr"] # desable language from here
+
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/particles/particles.min.js"
+[[params.plugins.js]]
+link = "plugins/particles/stats.min.js"
+[[params.plugins.js]]
+link = "plugins/reading-time/readingTime.min.js"
+
+
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "home"
+URL = "home"
+weight = 1
+
+[[menu.main]]
+name = "about"
+URL = "about"
+weight = 2
+
+[[menu.main]]
+name = "us"
+URL = "publication"
+weight = 3
+
+[[menu.main]]
+name = "services"
+URL = "project"
+weight = 4
+
+# [[menu.main]]
+# name = "case studies"
+# URL = "blog"
+# weight = 6
+
+#[[menu.main]]
+#name = "highlight"
+#URL = "talk"
+#weight = 7
+
+[[menu.main]]
+name = "contact"
+URL = "contact"
+weight = 10
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logos/logo41.png"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# Google Analitycs
+google_analitycs_id = "" # your id
+
+# body particles
+particles = false
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation button
+[params.navigation_button]
+enable = false
+label = "contact"
+link = "contact"
+
+############################# social site ########################
+#[[params.social]]
+#title = "facebook"
+#icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+#link = "#"
+
+[[params.social]]
+title = "linkedin"
+icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+link = "https://www.linkedin.com/in/andrewcramp/"
+
+[[params.social]]
+title = "twitter"
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+link = "https://twitter.com/Andrew_Centra"
+
+#[[params.social]]
+#title = "instagram"
+#icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+#link = "#"
+
+#[[params.social]]
+#title = "github"
+#icon = "ti-github" # themify icon : https://themify.me/themify-icons
+#link = "#"
+
+[[params.social]]
+title = "linkedin"
+icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+link = "https://www.linkedin.com/in/greg-wright-be-hons-1-cpeng-lge-mba-ner-mieaust-14341263/"
+
+[[params.social]]
+title = "download"
+icon = "ti-download" # themify icon : https://themify.me/themify-icons
+link = "/downloads/CentraBrochure.pdf"
+
+#[[params.social]]
+#title = "web"
+#icon = "ti-gallery" # themify icon : https://themify.me/themify-icons
+#link = "" # "https://www.centra-australia.com"
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+# copyright
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"

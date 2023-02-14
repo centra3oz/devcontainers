@@ -1,0 +1,53 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: "static/images/downloads" # Folder where user uploaded files should go
+public_folder: "/images/downloads"
+
+collections:
+  - name: "publications" # Used in routes, e.g., /admin/collections/blog
+    label: "Us" # Used in the UI
+    folder: "content/english/publications" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields each document in this collection have
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Role", name: "author", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "projects" # Used in routes, e.g., /admin/collections/blog
+    label: "Service" # Used in the UI
+    folder: "content/english/projects" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields each document in this collection have
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Thumbnail", name: "image", widget: "image"}
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "blogs" # Used in routes, e.g., /admin/collections/blog
+    label: "Case Study" # Used in the UI
+    folder: "content/english/blogs" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields each document in this collection have
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Thumbnail", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "talks" # Used in routes, e.g., /admin/collections/blog
+    label: "Highlights" # Used in the UI
+    folder: "content/english/talks" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields each document in this collection have
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Role", name: "author", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
