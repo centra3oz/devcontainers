@@ -11,7 +11,7 @@ description: "This is meta description"
 # links
 links:
   - label : "CV"
-    link : "/downloads/Centra_GregWright_CV.pdf"
+    link : "/downloads/Greg-Wright-Centra-CV_front.pdf"
   - label: Gallery
     link: author/technical-director
   - label : "More"
