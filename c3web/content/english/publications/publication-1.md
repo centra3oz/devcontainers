@@ -7,7 +7,7 @@ draft: false
 description: This is meta description
 links:
   - label: CV
-    link: /downloads/Centra_AndrewCramp_CV.pdf
+    link: /downloads/Centra_Andrew_Cramp_CV_front.pdf
   - label: Gallery
     link: author/managing-director
 ---
