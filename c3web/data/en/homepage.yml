@@ -15,14 +15,13 @@ about:
   content : "Centra Australia provides specialist technical advisory services to a broad range of government and private organisations with a particular focus on improving operational efficiencies.
     <p />We work with boards, directors and senior managers to help “achieve more from less” in delivering infrastructure outcomes.
     <p />Centra Australia comprehensively understands the technical environment and the management principles as applied to infrastructure.
-    <p />We
-offer industry leading knowledge based on practical experience. Our Directors have worked within government and understand critical government drivers.
+    <p />We offer industry leading knowledge based on practical experience. Our Directors have worked within government and understand critical government drivers.
     <p />We provide independent technical advice with strategies and ideas for improvement and innovation.
     <p />Our clients achieve real outcomes and high value improvements in infrastructure management and delivery."
 
 ####################### Education ###########################
 education:
-  enable : true
+  enable : false
   title : ""
   education_item:
     # services item loop
@@ -67,17 +66,19 @@ education:
 
 ####################### Expertise ###########################
 expertise:
-  enable : false
+  enable : true
   title : "Expertise"
   expertise_item:
     # expertise item loop
-    - name : "Data Analysis and Visualization"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
-
-    # expertise item loop
-    - name : "Statical Meathod Learning"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
-
+    - name : "Asset management"
+      content : ""
+    - name : "Program development"
+      content : ""
+      content : ""  
+    - name : "Expert witness"
+      content : ""  
+    - name : "Pavement  assessment"
+      content : ""  
 
 ####################### Publication ###########################
 publication:
